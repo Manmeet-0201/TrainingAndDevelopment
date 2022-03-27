@@ -44,7 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="OrderNotificationSender.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="OrderProcessor.cs" />
+    <Compile Include="OrderSaver.cs" />
+    <Compile Include="OrderValidator.cs" />
+    <Compile Include="SingleResponsibilityPrincipleExecutor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

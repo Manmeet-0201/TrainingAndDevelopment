@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpenClosedPrinciple
+namespace InterfaceSegregationPrinciple
 {
-    class Program
+    interface IFaxContent
     {
-        static void Main(string[] args)
-        {
-        }
+        bool FaxContent(String content);
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{745B4CFF-C024-4961-BC00-B9D033F2C1D7}</ProjectGuid>
+    <ProjectGuid>{8D180F07-04BB-43B7-9154-58179618D5C4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OpenClosedPrinciple</RootNamespace>
-    <AssemblyName>OpenClosedPrinciple</AssemblyName>
+    <RootNamespace>LiskovSubstitutionPrinciple</RootNamespace>
+    <AssemblyName>LiskovSubstitutionPrinciple</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractEmployee.cs" />
+    <Compile Include="AbsractEmployee.cs" />
+    <Compile Include="ContractEmployee.cs" />
     <Compile Include="FullTimeEmployee.cs" />
-    <Compile Include="OpenClosedPrincipleExecutor.cs" />
+    <Compile Include="IEmployee.cs" />
+    <Compile Include="IEmployeeBonus.cs" />
     <Compile Include="PartTimeEmployee.cs" />
+    <Compile Include="LiskovSubstitutionPrincipleExecutor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

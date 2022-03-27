@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace SingleResponsibilityPrinciple
 {
-    class OrderNotificationSender
+    public class OrderValidator
     {
-        public void SendNotification(string orderValue)
+        public void Validate(string orderValue)
         {
-            Console.WriteLine(orderValue + " " + "Notification for order has been sent");
+            Console.WriteLine(orderValue + " " + "Validate of order");
         }
     }
 }

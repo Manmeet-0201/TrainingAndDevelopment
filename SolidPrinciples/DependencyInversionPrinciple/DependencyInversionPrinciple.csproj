@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{745B4CFF-C024-4961-BC00-B9D033F2C1D7}</ProjectGuid>
+    <ProjectGuid>{09822FAD-94CA-4A1F-A752-FF70AA18F8DB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OpenClosedPrinciple</RootNamespace>
-    <AssemblyName>OpenClosedPrinciple</AssemblyName>
+    <RootNamespace>DependencyInversionPrinciple</RootNamespace>
+    <AssemblyName>DependencyInversionPrinciple</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractEmployee.cs" />
-    <Compile Include="FullTimeEmployee.cs" />
-    <Compile Include="OpenClosedPrincipleExecutor.cs" />
-    <Compile Include="PartTimeEmployee.cs" />
+    <Compile Include="CustomerBusinessLogic.cs" />
+    <Compile Include="CustomerDataAccess.cs" />
+    <Compile Include="DataAccessFactory.cs" />
+    <Compile Include="ICustomerDataAccess.cs" />
+    <Compile Include="DependencyInversionPrincipleExecutor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

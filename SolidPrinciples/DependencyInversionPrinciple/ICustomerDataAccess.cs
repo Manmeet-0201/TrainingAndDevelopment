@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SingleResponsibilityPrinciple
+namespace DependencyInversionPrinciple
 {
-    class Program
+    public interface ICustomerDataAccess
     {
-        static void Main(string[] args)
-        {
-        }
+        string GetCustomerName(int id);
     }
 }
