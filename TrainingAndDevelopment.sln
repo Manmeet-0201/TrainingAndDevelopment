@@ -9,8 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolidPrinciples", "SolidPri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "SolidPrinciples\SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{A14523DA-039E-4AC3-A115-8EEBAC3C17D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosedPrinciple", "OpenClosedPrinciple\OpenClosedPrinciple.csproj", "{C18123CA-BABF-423E-9A37-1E5C92AF4E27}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,17 +23,12 @@ Global
 		{A14523DA-039E-4AC3-A115-8EEBAC3C17D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A14523DA-039E-4AC3-A115-8EEBAC3C17D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A14523DA-039E-4AC3-A115-8EEBAC3C17D9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C18123CA-BABF-423E-9A37-1E5C92AF4E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C18123CA-BABF-423E-9A37-1E5C92AF4E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C18123CA-BABF-423E-9A37-1E5C92AF4E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C18123CA-BABF-423E-9A37-1E5C92AF4E27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A14523DA-039E-4AC3-A115-8EEBAC3C17D9} = {B18C6BBF-9AE1-4C71-BD9B-7022FD842DEE}
-		{C18123CA-BABF-423E-9A37-1E5C92AF4E27} = {B18C6BBF-9AE1-4C71-BD9B-7022FD842DEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB8F3EF8-FD6F-4139-B546-6CA3108C0386}
