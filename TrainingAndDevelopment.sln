@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTrainingTest", "CS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionDemo", "CSharp\ExceptionDemo\ExceptionDemo.csproj", "{144B9268-C14D-459F-9F5A-AB284E8BF2F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaOrderSystem", "Exercises\PizzaOrderSystem\PizzaOrderSystem.csproj", "{0180F8C5-0A64-4CD8-8774-195DD0A6C731}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -217,6 +219,10 @@ Global
 		{144B9268-C14D-459F-9F5A-AB284E8BF2F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{144B9268-C14D-459F-9F5A-AB284E8BF2F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{144B9268-C14D-459F-9F5A-AB284E8BF2F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0180F8C5-0A64-4CD8-8774-195DD0A6C731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0180F8C5-0A64-4CD8-8774-195DD0A6C731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0180F8C5-0A64-4CD8-8774-195DD0A6C731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0180F8C5-0A64-4CD8-8774-195DD0A6C731}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -254,6 +260,7 @@ Global
 		{BB25437C-30A2-46FB-9E49-45A3AF45FB9A} = {20D28730-5999-4E77-93F2-17E561853A5A}
 		{BF30D11E-B902-4115-9A6F-F15B7E4163DA} = {20D28730-5999-4E77-93F2-17E561853A5A}
 		{144B9268-C14D-459F-9F5A-AB284E8BF2F1} = {20D28730-5999-4E77-93F2-17E561853A5A}
+		{0180F8C5-0A64-4CD8-8774-195DD0A6C731} = {262E18E6-55E0-48C6-BC02-58C89A14E15B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB8F3EF8-FD6F-4139-B546-6CA3108C0386}
